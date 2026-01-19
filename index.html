@@ -4,235 +4,328 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Asesoría en Planes de Asistencia Médica | Maria Ines – Ejecutiva Autorizada</title>
+    <title>Planes de Rescate Médico y Urgencias | Asesoría con Maria Ines</title>
+
     <meta
       name="description"
-      content="Recibe asesoría directa con Maria Ines Mora, ejecutiva autorizada para afiliación a planes de asistencia médica 24/7 provistos por Unidad Coronaria Móvil (UCM Chile)."
+      content="Cotiza tu plan de protección familiar. Asesoría directa con ejecutiva autorizada para planes de rescate médico, médico a domicilio y urgencias 24/7."
     />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://rescateservicio.cl/" />
+
+    <link rel="canonical" href="https://planrescates.cl/" />
+
     <meta name="theme-color" content="#0b5ed7" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Asesoría en Planes de Asistencia Médica | Maria Ines Mora" />
+    <meta property="og:title" content="Asesoría Experta en Planes de Salud | Maria Ines" />
     <meta
       property="og:description"
-      content="Asesoría y afiliación a planes de asistencia médica 24/7 provistos por UCM Chile. Atención directa con ejecutiva autorizada."
+      content="Atención personalizada para contratación de planes de rescate. Habla directo con una ejecutiva."
     />
     <meta property="og:image" content="assets/images/hero-ambulance.png" />
     <meta property="og:url" content="https://planrescates.cl/" />
     <link rel="stylesheet" href="css/styles.css" />
 
-    <!-- Schema.org: ProfessionalService (Third-Party Safe Mode) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
         "url": "https://planrescates.cl/",
-        "name": "Maria Ines – Asesoría en Planes de Asistencia Médica",
-        "description": "Asesoría comercial y afiliación a planes de asistencia médica provistos por Unidad Coronaria Móvil (UCM Chile). Sitio administrado por ejecutiva autorizada.",
+        "name": "Maria Ines – Asesoría Comercial en Salud",
+        "image": "https://planrescates.cl/assets/images/ejecutiva-callcenter.png",
+        "description": "Servicio de asesoría comercial y gestión de contratos para planes de asistencia médica.",
+        "priceRange": "$$",
         "areaServed": {
           "@type": "Country",
           "name": "Chile"
         },
         "provider": {
           "@type": "Person",
-          "name": "Maria Mora"
+          "name": "Maria Ines Mora"
         },
-        "serviceType": "Asesoría y afiliación a planes de asistencia médica",
-        "availableChannel": {
-          "@type": "ServiceChannel",
-          "serviceLocation": {
-            "@type": "Place",
-            "name": "Atención remota"
-          }
-        },
+        "serviceType": "Asesoría comercial",
         "sameAs": ["https://wa.me/56983589813"]
       }
     </script>
   </head>
 
   <body>
-    <!-- Header / Navigation -->
     <header id="site-header">
       <nav aria-label="Navegación principal">
         <div class="container nav-inner">
           <div class="nav-brand">
-            <span>Unidad coronaria Movil Planes</span>
+            <span class="brand-text"
+              >Maria Ines <span class="brand-highlight">| Asesoría Salud</span></span
+            >
           </div>
 
-          <ul class="nav-menu">
-            <li><a href="#inicio">Inicio</a></li>
+          <ul class="nav-menu desktop-only">
             <li><a href="#planes">Planes</a></li>
             <li><a href="#beneficios">Beneficios</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#contacto" class="nav-cta">Contacto</a></li>
           </ul>
         </div>
       </nav>
     </header>
 
     <main id="contenido">
-      <!-- HERO -->
       <section id="inicio" class="hero">
+        <div class="hero-bg-overlay"></div>
         <img
-          src="assets/images/hero-ambulance.png"
-          alt="Imagen referencial de servicios de asistencia médica y ambulancia"
+          class="hero-bg-img"
+          src="assets/images/ambulancegemini.png"
+          alt="Familia protegida con servicio de ambulancia"
         />
 
-        <div class="hero-content">
-          <h1>Asesoría en planes de asistencia médica Unidad Coronaria</h1>
-          <p>
-            Recibe orientación clara y directa para elegir un plan de asistencia médica acorde a tus
-            necesidades. Atención personalizada con ejecutiva autorizada.
-          </p>
+        <div class="container hero-container">
+          <div class="hero-text">
+            <span class="badge-promo">Asesoría Autorizada</span>
+            <h1>Protección Médica y Rescate Móvil a Domicilio</h1>
+            <p>
+              Evita largas esperas en urgencias. Recibe orientación experta para elegir el plan de
+              asistencia médica ideal para proteger a tu familia hoy mismo.
+            </p>
 
-          <div class="hero-actions">
-            <a href="tel:+56983589813" class="btn primary">Llamar ahora</a>
-            <a href="https://wa.me/56983589813" class="btn whatsapp">WhatsApp</a>
+            <div class="hero-trust">
+              <div class="trust-item">✓ Cobertura 24/7</div>
+              <div class="trust-item">✓ Médico a Domicilio</div>
+              <div class="trust-item">✓ Sin Deducibles</div>
+            </div>
+          </div>
+
+          <div class="hero-form-wrapper">
+            <div class="lead-form">
+              <h3>Solicita tu Cotización</h3>
+              <p>Déjame tus datos y te contactaré a la brevedad.</p>
+
+              <form action="https://formspree.io/f/xaqqjbyj" method="POST">
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="Nuevo Cliente Interesado (Landing Page)"
+                />
+                <input type="hidden" name="_language" value="es" />
+
+                <div class="form-group">
+                  <label for="name" class="sr-only">Nombre</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="nombre"
+                    placeholder="Tu Nombre Completo"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="email" class="sr-only">Correo</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Tu Correo Electrónico"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="phone" class="sr-only">Teléfono</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="telefono"
+                    placeholder="Tu Teléfono (Ej: +569...)"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="plan" class="sr-only">Plan de interés</label>
+                  <select id="plan" name="plan_interes">
+                    <option value="" disabled selected>¿Qué plan te interesa?</option>
+                    <option value="full">Plan Full Rescue</option>
+                    <option value="senior">Plan Adulto Mayor</option>
+                    <option value="duda">Tengo dudas generales</option>
+                  </select>
+                </div>
+
+                <button type="submit" class="btn full-width shine-effect">
+                  ¡Quiero que me contacten!
+                </button>
+                <p class="form-disclaimer">Tus datos son 100% confidenciales.</p>
+              </form>
+            </div>
           </div>
         </div>
       </section>
 
-      <!-- PLANES -->
       <section id="planes" class="section plans">
         <div class="container">
-          <!-- Title -->
           <header class="section-header text-center">
-            <h2 class="section-title">Planes de asistencia médica</h2>
+            <h2 class="section-title">Elige tu Nivel de Protección</h2>
             <p class="section-intro">
-              Conoce las alternativas de planes disponibles y revisa valores referenciales. Recibe
-              asesoría directa para elegir la opción más adecuada según tu edad y necesidades.
+              Gestión rápida y transparente. Revisa las opciones disponibles y contrata con el
+              respaldo de mi gestión personalizada.
             </p>
           </header>
 
-          <!-- Plans Grid -->
           <div class="plans-grid">
-            <!-- Plan Full Rescue -->
-            <article class="plan-card">
+            <article class="plan-card featured">
+              <div class="ribbon">MÁS POPULAR</div>
               <div class="plan-body">
-                <h3 class="plan-name">Full Rescue</h3>
-
+                <h3 class="plan-name">Plan Integral / Full</h3>
                 <p class="plan-subtitle">Cuota mensual desde</p>
-
                 <div class="plan-price">0,59 UF</div>
-
-                <p class="plan-description">Emergencias y urgencias médicas.</p>
+                <p class="plan-description">La cobertura más completa para toda la familia.</p>
 
                 <ul class="plan-features">
-                  <li>Rescate ante emergencias médicas.</li>
-                  <li>Atención programada de urgencias médicas.</li>
-                  <li>Orientación de salud telefónica.</li>
+                  <li><strong>Rescate móvil inmediato</strong> (Clave Roja)</li>
+                  <li>Atención médica a domicilio (Copago bajo)</li>
+                  <li>Orientación telefónica 24/7</li>
+                  <li>Toma de exámenes a domicilio</li>
                 </ul>
               </div>
 
               <div class="plan-actions">
                 <a
-                  href="https://wa.me/56983589813"
+                  href="https://wa.me/56983589813?text=Hola,%20me%20interesa%20el%20Plan%20Full"
                   class="btn plan-primary"
-                  aria-label="Contratar plan Full Rescue por WhatsApp"
                 >
-                  Contratar por WhatsApp
-                </a>
-
-                <a
-                  href="tel:+56983589813"
-                  class="btn plan-secondary"
-                  aria-label="Llamar para cotizar plan Full Rescue"
-                >
-                  Llamar para cotizar
+                  Cotizar este Plan
                 </a>
               </div>
             </article>
 
-            <!-- Plan Senior -->
             <article class="plan-card">
               <div class="plan-body">
-                <h3 class="plan-name">Senior</h3>
-
+                <h3 class="plan-name">Plan Adulto Mayor</h3>
                 <p class="plan-subtitle">Cuota mensual desde</p>
-
                 <div class="plan-price">1,2 UF</div>
-
-                <p class="plan-description">Protección para adultos desde 75 años.</p>
+                <p class="plan-description">Cuidado especializado para mayores de 75 años.</p>
 
                 <ul class="plan-features">
-                  <li>Rescate ante emergencias con riesgo vital y/o urgencias médicas.</li>
-                  <li>Asistencia de salud con copago $0 en centros médicos.</li>
-                  <li>Hasta 25% de descuento en servicios de salud a domicilio.</li>
+                  <li><strong>Prioridad</strong> en situaciones de riesgo vital</li>
+                  <li>Sin copago en centros en convenio</li>
+                  <li>Gestión de remedios y enfermería</li>
+                  <li>Acompañamiento telefónico</li>
                 </ul>
               </div>
 
               <div class="plan-actions">
                 <a
-                  href="https://wa.me/56983589813"
-                  class="btn plan-primary"
-                  aria-label="Contratar plan Senior por WhatsApp"
-                >
-                  Contratar por WhatsApp
-                </a>
-
-                <a
-                  href="tel:+56983589813"
+                  href="https://wa.me/56983589813?text=Hola,%20me%20interesa%20el%20Plan%20Adulto%20Mayor"
                   class="btn plan-secondary"
-                  aria-label="Llamar para cotizar plan Senior"
                 >
-                  Llamar para cotizar
+                  Cotizar este Plan
                 </a>
               </div>
             </article>
           </div>
 
-          <!-- Legal note -->
           <footer class="plans-footer">
             <p class="plans-note">
-              Valores referenciales. Las condiciones, coberturas y valores pueden variar según el
-              plan, edad y zona. Confirma siempre con una ejecutiva autorizada.
+              *Valores referenciales en UF. Los servicios finales son prestados por UCM Chile bajo
+              sus términos y condiciones.
             </p>
           </footer>
         </div>
       </section>
 
-      <!-- BENEFICIOS / CONFIANZA -->
       <section id="beneficios" class="section light">
         <div class="container split">
           <div class="split-text">
-            <h2>¿Por qué contratar con asesoría directa?</h2>
-            <ul class="benefits">
-              <li>✔ Atención personalizada y clara</li>
-              <li>✔ Acompañamiento durante el proceso de afiliación</li>
-              <li>✔ Información transparente y sin presiones</li>
-              <li>✔ Respaldo de servicios médicos provistos por UCM Chile</li>
+            <h2>¿Por qué contratar conmigo?</h2>
+            <p>A diferencia de un Call Center, yo seré tu punto de contacto permanente.</p>
+            <ul class="benefits-list">
+              <li>
+                <div class="icon-check">✓</div>
+                <div>
+                  <strong>Atención 1 a 1:</strong> Sin bots ni esperas. Tienes mi WhatsApp directo.
+                </div>
+              </li>
+              <li>
+                <div class="icon-check">✓</div>
+                <div>
+                  <strong>Transparencia:</strong> Te explico la letra chica antes de firmar.
+                </div>
+              </li>
+              <li>
+                <div class="icon-check">✓</div>
+                <div><strong>Respaldo Oficial:</strong> Gestión directa con UCM Chile.</div>
+              </li>
             </ul>
           </div>
 
           <div class="split-image">
             <img
-              src="assets/images/familia-confianza.png"
-              alt="Imagen referencial de familia recibiendo asesoría médica"
+              src="assets/images/familygemini.png"
+              alt="Familia feliz recibiendo asesoría"
+              loading="lazy"
             />
           </div>
         </div>
       </section>
 
-      <!-- CONTACTO -->
-      <section id="contacto" class="section">
-        <div class="container split">
+      <section id="faq" class="section">
+        <div class="container">
+          <header class="section-header text-center">
+            <h2 class="section-title">Preguntas Frecuentes</h2>
+          </header>
+
+          <div class="faq-grid">
+            <div class="faq-item">
+              <h3>¿El servicio cubre en todo Chile?</h3>
+              <p>
+                El servicio de rescate tiene zonas de cobertura específicas (principalmente Santiago
+                y V Región). Contáctame para verificar tu dirección exacta.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>¿Hay límite de edad para contratar?</h3>
+              <p>
+                No hay límite de edad, pero existen planes diferenciados según el rango etario (Plan
+                Joven, Familiar o Senior).
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>¿Cuánto demora en activarse el plan?</h3>
+              <p>
+                Generalmente el plan está activo 24 horas hábiles después de la firma del mandato.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="section bg-blue">
+        <div class="container split text-white">
           <div class="split-image">
             <img
-              src="assets/images/ejecutiva-callcenter.png"
-              alt="Imagen referencial de ejecutiva de atención"
+              src="assets/images/ejecutivagemini.png"
+              alt="Ejecutiva Maria Ines"
+              class="img-rounded"
+              loading="lazy"
             />
           </div>
 
           <div class="split-text">
-            <h2>Contacto directo</h2>
-            <p>
-              Si deseas recibir información o resolver dudas, puedes comunicarte directamente
-              conmigo por teléfono o WhatsApp.
+            <h2>Hablemos ahora</h2>
+            <p class="text-large">
+              Soy Maria Ines. Mi trabajo es asegurarme de que tú y tu familia estén protegidos ante
+              cualquier emergencia.
             </p>
 
             <div class="contact-actions">
-              <a href="tel:+56983589813" class="btn primary">Llamar ahora</a>
-              <a href="https://wa.me/56983589813" class="btn whatsapp">WhatsApp</a>
+              <a href="tel:+56983589813" class="btn btn-white">Llamar por Teléfono</a>
+              <a href="https://wa.me/56983589813" class="btn whatsapp shine-effect"
+                >WhatsApp Directo</a
+              >
             </div>
           </div>
         </div>
@@ -241,12 +334,19 @@
 
     <footer id="site-footer">
       <div class="container">
-        <p>
-          Sitio administrado por ejecutiva autorizada. Los servicios médicos son provistos por
-          Unidad Coronaria Móvil (UCM Chile). Este sitio no corresponde al sitio web institucional
-          oficial.
+        <p class="legal-text">
+          <strong>Aviso Legal:</strong> Este sitio web pertenece a una ejecutiva comercial
+          independiente y autorizada. No es el sitio web corporativo oficial de Unidad Coronaria
+          Móvil S.A. Las marcas mencionadas son propiedad de sus respectivos dueños.
         </p>
       </div>
     </footer>
+
+    <div class="sticky-mobile-bar">
+      <a href="tel:+56983589813" class="sticky-btn call"> <span class="icon">📞</span> Llamar </a>
+      <a href="https://wa.me/56983589813" class="sticky-btn whatsapp">
+        <span class="icon">💬</span> WhatsApp
+      </a>
+    </div>
   </body>
 </html>
